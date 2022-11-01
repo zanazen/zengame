@@ -1,0 +1,44 @@
+/* configurações de estilos do programa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+h1 {
+    color: blue;
+    margin: 10px 0;
+    font-size: 3rem;
+}
+.caixa-img img {
+    margin: 10px;
+    padding: 10px;;
+    box-sizing: border-box;
+    width: 200px ;
+}
+.caixa-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.deck-carta img {
+    box-sizing: border-box;
+    width: 200px ;
+}
+.deck-carta {
+    display: flex;
+    justify-content: center;
+}
+.clicar {
+    justify-content: center;
+}

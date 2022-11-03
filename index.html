@@ -10,22 +10,23 @@
 <body>
     <article id="startScreen">
         <h1>ZenGame</h1>
-        <h2>Como está o seu dia?</h2>
-        <h2>Quer saber a mensagem dos Deuses do Oriente para você hoje?</h2>
-        <h2>Vamos lá, Encontre-os!</h2>
+        <h3>Olá! Como está o seu dia?</h3>
+        <h3>Quer saber a mensagem que os deuses do Oriente tem você hoje?</h3>
+        <h2>Buda, Lakshmi ou Ganesha</h2>
+        <h3>Vamos lá, Encontre-os!</h3>
     </article>
-    <div class="caixa-img">
-        <img src="./img/buda.jpeg" alt="Senhor Buda" />
-        <img src="./img/lakshmi.jpeg" alt="Lakshmi" />
-        <img src="./img/ganesha.jpeg" alt="Ganesha" />
-    </div>
+<!--    <div class="caixa-img"> */
+       <img src="./img/buda.jpeg" alt="Senhor Buda" /> 
+       <img src="./img/lakshmi.jpeg" alt="Deusa Lakshmi" /> 
+       <img src="./img/ganesha.jpeg" alt="Ganesha" /> 
+   </div> -->
     <div class="deck-carta" img>
-        <img src="./img/deck-carta.jpg" alt="Deck de Cartas" />    
+        <img src="./img/deck-carta.jpg" id="CartaSelecionada" alt="Deck de Cartas" />    
     </div>
     <div class="clicar">
-        <button> Clique aqui para ver sua mensagem</button>
+        <p id="mensag"> <strong> Clique no deck de cartas e recebe a mensagem </strong></p>
     </div>
     <script src="./js/logica.js"></script> <!-- lógica da orientação a objetos-->
-    <script src="./js.dom.js"></script> <!-- DOM - se conecta com o HMTL e o CSS-->
+    <script src="./js/dom.js"></script> <!-- DOM - se conecta com o HMTL e o CSS-->
 </body>
 </html>

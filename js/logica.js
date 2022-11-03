@@ -32,7 +32,7 @@ mensagem (ultdeck) {
         return "Buda lhe diz: Começar aos poucos é normal: Buda ensinou que tudo começa devagar e que não é preciso ter pressa. Assim como uma jarra é preenchida aos poucos com água, a sabedoria humana também é alcançada aos poucos."
     }
     if (ultdeck === "./img/ganesha.jpeg") {
-        return "Ganesha lhe diz: Não percam a fé na sua capacidade de encontrar a solução para os seus problemas, de resolvê-los com maestria, no seu discernimentos para decidirem o que abandonar e o que levar nessa nova jornada em busca de si mesmos e de sua filiação Divina."
+        return "Ganesha lhe diz: Não percam a fé na sua capacidade de encontrar a solução para os seus problemas, de resolvê-los com maestria, nos seus discernimentos para decidirem o que abandonar e o que levar nessa nova jornada em busca de si mesmos e de sua filiação Divina."
     }
     if (ultdeck === "./img/lakshmi.jpeg") {
         return "Lakshmi lhe diz: Lakshmi, Deusa da Fortuna e Abundância, receba dela Saúde, Força, Abundância e Prosperidade para a sua vida."
